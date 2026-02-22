@@ -266,7 +266,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Cel,<br><br>Happy Birthday MIftahul Jannah!<br><br> Hari ini gue mau lo ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo lo ada di dunia ini. Semoga segala keinginan lu yang sangat random itu akan tercapai AAMIINNNN. Gua selalu percaya lu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa. Semangat untuk menyelesaikan kuliahnyaaa jangannn terlalu banyak ngeluh ya!!!!. <br><br>Terimakasih sudah mau selalu berteman dengan ku uhuyyy, dan selalu menasehati hal hal baik. Biarpun ga gue dengerin wkwk.<br><br>I love you so much! `;
+            const fullMessage = `Hi My BEST FRIEND,<br><br>Happy Birthday MIftahul Jannah!<br><br> Hari ini gue mau lo ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo lo ada di dunia ini. Semoga segala keinginan lu yang sangat random itu akan tercapai AAMIINNNN. Gua selalu percaya lu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa. Semangat untuk menyelesaikan kuliahnyaaa jangannn terlalu banyak ngeluh ya!!!!. <br><br>Terimakasih sudah mau selalu berteman dengan ku uhuyyy, dan selalu menasehati hal hal baik. Biarpun ga gue dengerin wkwk.<br><br>I love you so much! `;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -1190,4 +1190,5 @@ function handleContinueNavigation() {
         default:
             showScreen('main');
     }
+
 }
